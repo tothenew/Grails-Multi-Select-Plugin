@@ -1,2 +1,6 @@
 Provides a tag library having tags for including resources and dealing with HTML select boxes specially with multiple attribute set to true. Using Multi-select drop down is similar to grails select tag. Almost all the attributes of g:select tag is available with this tag. It pops out all the selected options from the select box, leaving only the deselected items in the dropdown. The selected item is displayed as a list with remove button that helps in deselecting them in easy way.
 
+Sample Use case :
+
+<ui:multiSelect name="categories" from="${Categories.list()}" value="${user.subscribedCategories}" noSelection="['':'Select One']" />
+
