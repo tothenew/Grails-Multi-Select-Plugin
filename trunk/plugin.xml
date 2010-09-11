@@ -1,0 +1,20 @@
+<plugin name='multi-select' version='0.2' grailsVersion='1.0 &gt; *'>
+  <author>Bhagwat Kumar</author>
+  <authorEmail>bhagwat@intelligrape.com</authorEmail>
+  <title>Multi select Drop down</title>
+  <description>\
+                        Provides a tag library having tags for including resources and dealing with HTML
+                        select boxes specially with multiple attribute set to boolean true.
+                        Using Multi-select drop down is similar to grails select tag. This tag pops
+                        out all the selected options from the select box, leaving only the deselected items in the dropdown.
+                        </description>
+  <documentation>http://grails.org/plugin/multi-select</documentation>
+  <resources>
+    <resource>UrlMappings</resource>
+    <resource>com.intelligrape.multiSelect.MultiSelectTagLib</resource>
+  </resources>
+  <dependencies>
+    <plugin name='jquery' version='1.4 &gt; *' />
+  </dependencies>
+  <behavior />
+</plugin>

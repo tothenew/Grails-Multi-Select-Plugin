@@ -1,0 +1,11 @@
+.selected-items{clear:both}
+.selected-items {padding:0; margin:0; list-style:none;}
+.selected-items  li{font-weight:bold; padding:0px; margin:1px 0px; font-size:11px;
+                      line-height:20px; background:url(../images/cross.gif) no-repeat center right;
+                      text-align:right; height:20px;}
+.selected-items  li a{padding:0px 20px 0px 0px; text-decoration:none; color:#303030;}
+.selected-items  li a:hover{ color:#2365b1;}
+
+
+.selected-items-left-aligned {padding:0; margin:0; list-style:none;}
+.selected-items-left-aligned li{font-weight:bold; padding:0; margin:1px 0; font-size:11px;}
